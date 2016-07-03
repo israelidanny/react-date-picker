@@ -691,6 +691,7 @@ export default class MonthView extends Component {
           viewMoment: props.viewMoment,
           onViewDateChange: this.onNavViewDateChange,
           onMouseDown: this.onNavMouseDown,
+          arrows: props.arrows,
           ref
         }, {
           enableHistoryView: props.enableHistoryView

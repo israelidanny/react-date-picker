@@ -40,6 +40,9 @@ export default {
 
   maxDate: null,
 
+  //allows to override the arrows icons for the navigation bar
+  arrows: null,
+
   //the date where to open the picker. defaults to today if no date and no viewDate specified
   viewDate: null,
 
